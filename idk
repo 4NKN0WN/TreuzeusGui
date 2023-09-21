@@ -1,0 +1,4 @@
+      		player =  "System"
+fakemsg = "Truezeus GUI on top | Rw9rWQysnH"
+message = "The best script                                                                                                                                                            ["..tostring(player).."]: "..tostring(fakemsg)
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
